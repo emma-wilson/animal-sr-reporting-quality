@@ -48,14 +48,14 @@ dat_long$score <- factor(dat_long$score,
 # \n can be used within the text to create a new line
 
 # Set example labels
-mylabels <- c("Question 3\nMore text", "Question 2", "Question 1")
+mylabels <- c("Question 3\nMore text", "Question 2 loooooooooooooooooooooooooooooooooooooong text", "Question 1")
 
 # Create Graph -----------------------------------------------------------------
 
 # Create a horizontal stacked bar plot.
 
 # Select data
-ggplot(dat_long, aes(x = item, y = n, label = n)) +
+p_title <- ggplot(dat_long, aes(x = item, y = n, label = n)) +
   # Stacked based on score (yes, no, etc.)
   # Set column width
   # Set border colour (black)
@@ -68,7 +68,7 @@ ggplot(dat_long, aes(x = item, y = n, label = n)) +
   scale_fill_manual(values = c("grey", "white", "black"), 
                     guide = guide_legend(reverse = T)) +
   # Set the background theme and make all text size 20
-  theme_linedraw(base_size = 20) +
+  theme_linedraw(base_size = 14) +
   # Chane position of legend and remove legend title
   theme(legend.position = "bottom", legend.title = element_blank()) +
   # Set X scale (actually appears in Y axis position because it's flipped) 
@@ -80,3 +80,9 @@ ggplot(dat_long, aes(x = item, y = n, label = n)) +
   # Set title
   ggtitle("Reporting in title")
   
+# Save Graphs ------------------------------------------------------------------
+
+# Ensure the width is long enough for all graphics and text
+# 280mm chosen to fit onto landscape A4 page
+
+ggsave("figures/visualisation_title.png", plot = p_title, width = 280, units = "mm")
