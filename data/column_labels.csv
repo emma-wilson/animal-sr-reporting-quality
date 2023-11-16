@@ -1,0 +1,52 @@
+checklist_ID,Label_Short,Label_Long,Answer_Options,NA_Meaning
+Item01,Title_SR,Identify the report as systematic review in title,Yes; No,
+Item02,Title_Animal,"Identify that the report contains animal data in title (preclinical,in vivoor synonym)",Yes; No,
+Item03,Intro_ConditionModelled,Describe the human condition being modelled (e.g. describe what is already known),Yes; No,
+Item04,Intro_InterventionRationale,Describe the biological rationale for testing the intervention (e.g. how would the intervention affect the condition),Yes; No; NA,SRs not investigating intervention
+Item05,Intro_ReviewQuestion,"Provide an explicit statement of the question(s) the review addresses (specify the main objectives of the review, ideally in PICO format)",Yes; No,
+Item06,Methods_Protocol,Indicate whether a review protocol was registered a priori,Yes; No,
+Item06a,Methods_Protocol_Access,Where can the protocol be accessed and indicate the name of the protocol registry OR state that it is not available,Yes; No; NA,No protocol
+Item06b,Methods_Protocol_Deviations,Indicate any deviations from the protocol OR that there were no deviations,Yes; No; NA,No protocol
+Item07,Methods_SpeciesEligibility,"Eligibility criteria: Describe the animal species to be included in the review (e.g. only mice, vertebrates, large animals)",Yes; No ,
+Item08,Methods_ModelEligibility,"Eligibility criteria: Describe the animal model to be included in the review (methods of disease induction, age, sex, etc.)",Yes; No ,
+Item09,Methods_InterventionEligibility,Eligibility criteria: Describe the intervention/exposure of interest,Yes; No; NA,SRs not investigating intervention
+Item10,Methods_ControlEligibility,Eligibility criteria: Describe the comparators and/or control population,Yes; No; NA,SRs not investigating intervention or meta analysis
+Item11,Methods_OutcomeEligibility,Eligibility criteria: Describe the primary outcomes of interest (what is being measured/assessed in primary studies),Yes; No ,
+Item12,Methods_InterventionTimingEligibility,Eligibility criteria: Describe the timing (prevention vs rescue) of intervention,Yes; No; NA,SRs not investigating intervention
+Item13,Methods_FullSearch,Indicate where a full search strategy of all data bases OR representative search strategy can be accessed,Yes; No ,
+Item14,Methods_InclusionLimits,"Describe inclusion limits (years conducted, language, AND publication type)",Yes; No ,
+Item15,Methods_ScreeningProcess,Describe the study screening/selection process,Yes; No ,
+Item15a,Methods_ScreeningProcess_Platform,"Report the platform used to screen and select studies (Excel, Access, DistillerSR,SyRF)",Yes; No ,
+Item16,Methods_NumberScreeners,State the number of independent screeners,Yes; No ,
+Item17,Methods_DataExtractionProcess,"Describe methods for extracting numerical data from reports (e.g. data in bar graph, or non-text presentation)",Yes; No; NA,No meta-analysis
+Item17a,Methods_DataExtractionProcess_Platform,"Report the platform and tools used to extract numerical data (Graph2data, Engauge)",Yes; No; NA,No meta-analysis
+Item18,Methods_NumberReviewers,Report number of independent reviewers extracting data,Yes; No,
+Item19,Methods_RoBTool,"Describe methods and tool used to measure study quality/risk of bias in individual studies (e.g. SYRCLE tool, CAMARADES tool)",Yes; No,
+Item20,Methods_ConstructValidity,Describe methods to assess construct validity in individual studies,Yes; No,
+Item21,Methods_PublicationBias,Describe methods for assessing publication bias of included studies,Yes; No,
+Item22,Methods_SynthesisingEffects,"Describe methods for synthesizing the quantitative effect measures of included studies (e.g. risk ratio, mean difference)",Yes; No; NA,No meta-analysis
+Item23,Methods_DataTransformation,Describe methods for any data transformation needed to make extracted data suitable for analysis (e.g. only sample size range),Yes; No; NA,No meta-analysis
+Item24,Methods_SharedControls,Describe methods for handling shared control groups (common issue in analysis of preclinical studies),Yes; No; NA,No meta-analysis
+Item25,Methods_Hetergeneity,Describe methods for assessing heterogeneity between individual studies,Yes; No; NA,No meta-analysis
+Item26,Methods_MultipleTimePoints,Describe methods for handling effect sizes over multiple time points (e.g. used all time points or latest time point),Yes; No; NA,No meta-analysis
+Item27,Methods_SubGroupAnalysis,Describe methods for sub-group and sensitivity analysis,Yes; No; NA,No meta-analysis
+Item28,Results_NumberIncluded,Report the number of included reports (individual references/publication) included in the review,Yes; No ,
+Item28a,Results_NumberIncluded_Table,Provides a list or table of individual studies with data or references,Yes; No; NA,Conference abstracts
+Item29,Results_NumberIncludedExperiments,Report the number of eligible experiments included in the analysis (eligible animal experiments in individual reports),Yes; No; NA,No meta-analysis
+Item30,Results_PRISMAFlow,Include a PRISMA flow diagram (or equivalent) of study selection process,Yes; No; NA,Conference abstracts
+Item31,Results_SpeciesCharacteristics,Study characteristics: Report animal species,Yes; no,
+Item32,Results_ModelCharacteristics,"Study characteristics: Report animal model details (e.g. method of disease induction, age, sex)",Yes; No,
+Item33,Results_SampleSizeCharacteristics,Study characteristics: Report a measure of the sample size (e.g. total number or mean number of animals),Yes; No,
+Item34,Results_InterventionCharacteristics,"Study characteristics: Report intervention/exposure details (timing, dose)",Yes; No; NA,SRs not investigating intervention
+Item35,Results_StudyDesignCharacteristics,"Study characteristics: Report study design/intention (pharmakinetic, mechanistic, efficacy)",Yes; No,
+Item36,Results_RoB,Report the risk of bias of the primary studies (individual studies/across outcomes),Yes; No; NA,Risk of bias not assessed
+Item37,Results_OutcomeEffects,Report the outcome effects of primary studies (forest plot if applicable),Yes; No; NA,No meta-analysis
+Item38,Results_ConfidenceIntervals,Report the confidence intervals of outcomes for the included studies,Yes; No; NA,No meta-analysis
+Item39,Results_Heterogeneity,Report any measure of heterogeneity between studies,Yes; No; NA,No meta-analysis
+Item40,Results_SubGroup,Report the results of sub-group and sensitivity analysis,Yes; No; NA,No meta-analysis
+Item41,Results_PublicationBias,"Report the results of publication bias, OR report that it was not possible/done",Yes; No; NA,Publication bias not assessed
+Item42,Discussion_RoB,Discuss the impact of the risk of bias of the primary studies,Yes; No; NA,Risk of bias not assessed
+Item43,Discussion_StudyLimitations,Discuss the limitations (i.e. limitation of primary studies and/or outcomes included),Yes; No,
+Item44,Discussion_ReviewLimitations,Discuss the limitations of the systematic review,Yes; No,
+Item45,Other_Funding,Include the funding source(s) of the systematic review,Yes; No,
+Item46,Other_DataSharing,"Report any data sharing, OR that there was no data sharing",Reported data shared; Reported data are not shared; Not reported,
